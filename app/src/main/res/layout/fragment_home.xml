@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.home.HomeFragment">
+
+    <TextView
+        android:id="@+id/text_home"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:textAlignment="center"
+        android:textSize="0dp"
+        tools:visibility="invisible" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="300dp"
+                android:layout_height="300dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="16dp"
+                android:text="Nida's Pure"
+                android:textSize="32dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="About Nida's Pure"
+                android:textSize="16dp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Nida's Pure range of handmade bath and body care products are made using 100% pure therapeutic grade essential oils, organic, vegetarian and non toxic ingredients, designed to give you the best results in the shortest time." />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="What would you like to smell like? – This is the question when picking from Nida’s Pure extensive collection of Natural Handmade Soaps and Bath Products.
+All the components in our products are made with organic, non-toxic ingredients, which benefit the skin and body by keeping it clean and also delivering healing to the skin through herbs and  essential oils that have therapeutic properties.
+Each piece of Nida’s Pure Handmade Soaps and Bath Products is  so unique that you’ll be hard pressed to pick your favourite."/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Our Mission"
+                android:paddingTop="16dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Nida's Pure has been created with the intention of making effective and natural products using only the top quality ingredients for your regular skin care regiment. Our products are known to have significant effects on sleep, acne, skin texture, skin brightening, and many more. With Nida's Pure you can be assured that you are receiving the best care your skin deserves."/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="WHAT ARE ESSENTIAL OILS?"
+                android:paddingTop="16dp"
+                android:textSize="16dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+
+                android:layout_height="wrap_content"
+                android:paddingLeft="32dp"
+                android:paddingRight="32dp"
+                android:text="Essential oils are concentrated plant extracts that retain the natural smell and flavor, or essence of their source.
+Essential oils can be inhaled or applied to the skin, and may stimulate our sense of smell or have medicinal effects when absorbed.
+There are over 90 commonly used essential oils, each associated with certain health benefits.
+High quality oils only use pure plant compounds extracted by distillation or cold pressing. One should avoid using oils that have been diluted with synthetic fragrances, chemicals or oils.
+
+Our soaps are SLS (Sodium Lauryl Sulphate) free and Paraben Free.
+
+Each piece of Nida’s Pure Handmade Soaps and bath products is so unique that you’ll be hard-pressed to pick a favourite.
+
+So, Order Nida’s Pure Handmade Soaps and Bath Products
+online to treat yourself to daily therapeutic baths."/>
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>
